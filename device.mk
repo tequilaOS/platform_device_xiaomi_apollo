@@ -18,7 +18,8 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_PACKAGES += \
     libMegviiFacepp-0.5.2 \
-    libmegface
+    libmegface \
+    libpiex_shim
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
