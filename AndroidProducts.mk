@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2021 The tequilaOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_apollo.mk
+    $(LOCAL_DIR)/tequila_apollo.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_apollo-user \
-    lineage_apollo-userdebug \
-    lineage_apollo-eng
+    tequila_apollo-user \
+    tequila_apollo-userdebug \
+    tequila_apollo-eng
