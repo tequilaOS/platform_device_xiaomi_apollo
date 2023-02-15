@@ -25,6 +25,12 @@ PRODUCT_PACKAGES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+# RRO overlays
+PRODUCT_PACKAGES += \
+    SettingsProviderM2007J3SC \
+    SettingsProviderM2007J3SG  \
+    SettingsProviderM2007J3SY
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 29
 
